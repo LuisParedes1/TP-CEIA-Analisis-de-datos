@@ -16,7 +16,7 @@ El enunciado completo se encuentra en [`enunciado/Analisis_de_datos_-_Trabajo_gr
 
 ## Resumen
 
-En el siguiente trabajo se realiza un análisis exploratorio, limpieza, preprocesamiento y reducción de dimensionalidad sobre el dataset [Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies), que contiene metadata asociada de 1.4 millones de películas.
+En el siguiente trabajo se realiza un análisis exploratorio, limpieza, preprocesamiento y reducción de dimensionalidad sobre el dataset [Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies), que contiene metadatos asociados a 1.4 millones de películas.
 
 El objetivo es construir un pipeline de análisis de datos orientado a predecir el éxito de una película, definido a partir de un success score bayesiano calculado con `vote_average` y `vote_count`.
 
