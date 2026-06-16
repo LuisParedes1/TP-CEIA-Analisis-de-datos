@@ -20,14 +20,14 @@ En el siguiente trabajo se realiza un análisis exploratorio, limpieza, preproce
 
 El objetivo es construir un pipeline de análisis de datos orientado a predecir el éxito de una película, definido a partir de un success score bayesiano calculado con `vote_average` y `vote_count`.
 
-$$WR = (v_i / (v_i + m)) · R_i  +  (m / (v_i + m)) · C$$
+$$WR = (v_i / (v_i + u)) · R_i  +  (u / (v_i + u)) \cdot C$$
 
 donde 
 
 - $R_i$ = vote_average de la película 
 - $v_i$ = vote_count
 - $C$ = media global de vote_average del dataset (el "prior"), 
-- $m$ = umbral mínimo de votos para considerar el rating confiable
+- $u$ = umbral mínimo de votos para considerar el rating confiable (90%)
 
 
 La idea es que si una película tiene muchos votos, $WR \approx R$ (confiamos en su rating); si tiene pocos, se la "tira" hacia la media global $C$
