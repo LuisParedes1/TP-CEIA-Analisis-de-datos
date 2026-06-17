@@ -5,7 +5,7 @@ Trabajo Final grupal para la materia Análisis de Datos - CEIA
 
 ## Integrantes
 
-- Yoharlyn Alvarez
+- Yoharlyn Alvarez: yoharlyn@gmail.com
 - Sebastián Aragones
 - Luis Paredes
 
